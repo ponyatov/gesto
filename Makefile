@@ -1,3 +1,7 @@
+all: 
+	-python gesto.py > gesto.log
+	sleep 2
+
 TODAY = $(shell date +%d%m%y)
 
 MERGE  = Makefile .gitignore README.md
