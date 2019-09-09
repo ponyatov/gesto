@@ -106,5 +106,5 @@ def INTERP(ctx):
 ####################################################### system init        
 
 if __name__ == "__main__":
-    vm // Str(open(sys.argv[0]+'.ini').read()) ; INTERP(vm)
+    vm // Str(open(sys.argv[0][:-3]+'.gst').read()) ; INTERP(vm)
 
